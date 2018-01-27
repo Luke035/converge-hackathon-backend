@@ -36,10 +36,10 @@ client.subscribe("coverage-hackathon")
 client.on_message = on_message
 client.on_log = on_log
 
-
 client.publish("coverage-hackathon", "OFF")
 
+_never_true = False
+while not _never_true:
+    time.sleep(1)
 
-time.sleep(4)
 client.loop_stop()
-
