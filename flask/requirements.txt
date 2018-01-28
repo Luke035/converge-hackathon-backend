@@ -1,7 +1,0 @@
-numpy
-six
-tensorflow==1.4.1
-matplotlib
-Pillow
-paho-mqtt
-
